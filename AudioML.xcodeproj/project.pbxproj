@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DEA407362447904F00C144E0 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = DEA407352447904E00C144E0 /* Readme.txt */; };
 		DEFC6B4A24476F7B00CF5630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6B4924476F7B00CF5630 /* AppDelegate.swift */; };
 		DEFC6B4C24476F7B00CF5630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6B4B24476F7B00CF5630 /* SceneDelegate.swift */; };
 		DEFC6B4E24476F7B00CF5630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6B4D24476F7B00CF5630 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DEA407352447904E00C144E0 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = SOURCE_ROOT; };
 		DEFC6B4624476F7A00CF5630 /* AudioML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFC6B4924476F7B00CF5630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEFC6B4B24476F7B00CF5630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				DEFC6B662447819F00CF5630 /* AnimalSoundClassifier 1.mlmodel */,
 				DEFC6B60244771AA00CF5630 /* ESC-10 Sound Classifier.mlmodel */,
 				DEFC6B4F24476F7B00CF5630 /* Main.storyboard */,
+				DEA407352447904E00C144E0 /* Readme.txt */,
 				DEFC6B5524476F8500CF5630 /* Assets.xcassets */,
 				DEFC6B5724476F8500CF5630 /* LaunchScreen.storyboard */,
 				DEFC6B5A24476F8500CF5630 /* Info.plist */,
@@ -142,6 +145,7 @@
 			files = (
 				DEFC6B5924476F8500CF5630 /* LaunchScreen.storyboard in Resources */,
 				DEFC6B5624476F8500CF5630 /* Assets.xcassets in Resources */,
+				DEA407362447904F00C144E0 /* Readme.txt in Resources */,
 				DEFC6B5124476F7B00CF5630 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
