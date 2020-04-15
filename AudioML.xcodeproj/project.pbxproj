@@ -16,6 +16,8 @@
 		DEFC6B5924476F8500CF5630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFC6B5724476F8500CF5630 /* LaunchScreen.storyboard */; };
 		DEFC6B61244771AA00CF5630 /* ESC-10 Sound Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6B60244771AA00CF5630 /* ESC-10 Sound Classifier.mlmodel */; };
 		DEFC6B63244776A000CF5630 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6B62244776A000CF5630 /* AudioRecorder.swift */; };
+		DEFC6B6524477A2600CF5630 /* AudioClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6B6424477A2600CF5630 /* AudioClassifier.swift */; };
+		DEFC6B672447819F00CF5630 /* AnimalSoundClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DEFC6B662447819F00CF5630 /* AnimalSoundClassifier 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DEFC6B5A24476F8500CF5630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEFC6B60244771AA00CF5630 /* ESC-10 Sound Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "ESC-10 Sound Classifier.mlmodel"; sourceTree = "<group>"; };
 		DEFC6B62244776A000CF5630 /* AudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = SOURCE_ROOT; };
+		DEFC6B6424477A2600CF5630 /* AudioClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioClassifier.swift; sourceTree = "<group>"; };
+		DEFC6B662447819F00CF5630 /* AnimalSoundClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "AnimalSoundClassifier 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +70,14 @@
 				DEFC6B4B24476F7B00CF5630 /* SceneDelegate.swift */,
 				DEFC6B4D24476F7B00CF5630 /* ViewController.swift */,
 				DEFC6B62244776A000CF5630 /* AudioRecorder.swift */,
+				DEFC6B662447819F00CF5630 /* AnimalSoundClassifier 1.mlmodel */,
 				DEFC6B60244771AA00CF5630 /* ESC-10 Sound Classifier.mlmodel */,
 				DEFC6B4F24476F7B00CF5630 /* Main.storyboard */,
 				DEFC6B5524476F8500CF5630 /* Assets.xcassets */,
 				DEFC6B5724476F8500CF5630 /* LaunchScreen.storyboard */,
 				DEFC6B5A24476F8500CF5630 /* Info.plist */,
 				DEFC6B5224476F7B00CF5630 /* AudioML.xcdatamodeld */,
+				DEFC6B6424477A2600CF5630 /* AudioClassifier.swift */,
 			);
 			path = AudioML;
 			sourceTree = "<group>";
@@ -147,11 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEFC6B672447819F00CF5630 /* AnimalSoundClassifier 1.mlmodel in Sources */,
 				DEFC6B63244776A000CF5630 /* AudioRecorder.swift in Sources */,
 				DEFC6B4E24476F7B00CF5630 /* ViewController.swift in Sources */,
 				DEFC6B4A24476F7B00CF5630 /* AppDelegate.swift in Sources */,
 				DEFC6B61244771AA00CF5630 /* ESC-10 Sound Classifier.mlmodel in Sources */,
 				DEFC6B4C24476F7B00CF5630 /* SceneDelegate.swift in Sources */,
+				DEFC6B6524477A2600CF5630 /* AudioClassifier.swift in Sources */,
 				DEFC6B5424476F7B00CF5630 /* AudioML.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
